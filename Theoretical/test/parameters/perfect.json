@@ -1,0 +1,13 @@
+{"sample_depth": 1,
+"test_depth": 1, 
+"fixation_prob": {"K": 0.05, "C": 0.05, "Y": 0.05, "R": 0.05, "N_term": 0.05},
+"anchor_prob": {"N_term": 0.8, "K": 0.8},
+"cleave_before_prob": {},
+"cleave_after_prob": {"K": 0.8, "R": 0.8},
+"first_fragment_can_edman_prob": 1,
+"edman_rounds": 15,
+"edman_conjug_fail_prob": 0.1,
+"edman_cleave_fail_prob": 0.3,
+"binder_list": ["correct","incorrect"], 
+"binder_prob": [[1, 0],[0,1]] 
+}
