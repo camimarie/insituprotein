@@ -37,7 +37,7 @@ This repository contains:
 1. **Clone the repository:**
 
    ```bash
-   git clone https://github.com/camimarie/insituprotein
+   git clone https://github.com/camimarie/insituprotein.git
 
 2.  **Install dependencies:**
 
