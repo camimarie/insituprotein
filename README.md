@@ -7,9 +7,9 @@ This repository is still a work in progress. Please contact Camille Mitchell at 
 ## Table of Contents
 
 - [Project Overview](#project-overview)
-- [System Requirements](#system-requirements)
-- [Installation Guide](#installation-guide)
-- [Demo: Getting Started](#demo-getting-started)
+- [System Requirements](#1-system-requirements)
+- [Installation Guide](#2-installation-guide)
+- [Demo: Getting Started](#3-demo-getting-started)
 - [License](#license)
 
 ## Project Overview
@@ -66,7 +66,7 @@ The next installation steps should take 5 minutes to run.
     ```bash
     pip install -r requirements.txt
 
-## 4. Demo: Getting Started
+## 3. Demo: Getting Started
 
 After installation, for the experimental section, we recommend opening the ```Experimental/code_for_plots_principles_insitu_protein.ipynb``` notebook to view how the plots for the experimental section were generated.
 
