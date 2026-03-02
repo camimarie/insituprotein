@@ -1,5 +1,6 @@
-- numpy
-- requests
-- tqdm
-- matplotlib
-- pandas
+numpy
+requests
+tqdm
+matplotlib
+pandas
+numba
