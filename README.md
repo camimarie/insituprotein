@@ -1,6 +1,6 @@
-# In Situ Protein Sequencing
+# *In situ* Protein Sequencing
 
-This repository contains the code accompanying the in situ protein sequencing manuscript. Currently, it is divided into two sections: experimental and theoretical. The experimental folder contains the image processing and figure generation code for the experimental section. The theoretical folder contains pipelines to process and analyze proteome data from mycoplasma (Species ID: 243273) and human (Species ID: 9606), as well as any other proteome of interest. It includes code for data processing, proteomic data, and scripts for simulating the sequencing process. To get started on the theoretical code, begin with the Jupyter notebooks provided in the theoretical directory.
+This repository contains the code accompanying the *in situ* protein sequencing manuscript. Currently, it is divided into two sections: experimental and theoretical. The experimental folder contains the image processing and figure generation code for the experimental section. The theoretical folder contains pipelines to process and analyze proteome data from mycoplasma (Species ID: 243273) and human (Species ID: 9606), as well as any other proteome of interest. It includes code for data processing, proteomic data, and scripts for simulating the sequencing process. To get started on the theoretical code, begin with the Jupyter notebooks provided in the theoretical directory.
 
 This repository is still a work in progress. Please contact Camille Mitchell at camitch@mit.edu with any questions.
 
@@ -43,6 +43,10 @@ This repository contains:
 
 ## 2. Installation Guide
 
+We recommend using Visual Studio Code, which is free to download and use, to install and run the code: https://code.visualstudio.com/download.
+
+The next installation steps should take 5 minutes to run.
+
 1. **Clone the repository:**
 
    ```bash
@@ -66,7 +70,7 @@ This repository contains:
 
 After installation, for the experimental section, we recommend opening the ```Experimental/code_for_plots_principles_insitu_protein.ipynb``` notebook to view how the plots for the experimental section were generated.
 
-For the theoretical section, we recommend starting with the ```Theoretical/Introduction.ipynb``` notebook. This notebook provides an introduction to the preprocessing steps, giving you a quick overview of how the in situ protein sequencing process works. You can add your own parameters, species (other than human and mycoplasma), and run the simulations yourself. Then, we also recommend then running the ```Theoretical/Part1.ipynb``` notebook followed by the ```Theoretical/Part2.ipynb``` notebook. Note that some of the data generation takes a significant amount of time - doing this on a cluster, or decreasing the number of iterations should help.
+For the theoretical section, we recommend starting with the ```Theoretical/Introduction.ipynb``` notebook. This notebook provides an introduction to the preprocessing steps, giving you a quick overview of how the *in situ* protein sequencing process works. You can add your own parameters, species (other than human and mycoplasma), and run the simulations yourself. Then, we also recommend then running the ```Theoretical/Part1.ipynb``` notebook followed by the ```Theoretical/Part2.ipynb``` notebook. Note that some of the data generation takes a significant amount of time - doing this on a cluster, or decreasing the number of iterations should help.
 
 ## License
 
