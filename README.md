@@ -2,7 +2,7 @@
 
 This repository contains the code accompanying the in situ protein sequencing manuscript. Currently, it is divided into two sections: experimental and theoretical. The experimental folder contains the image processing and figure generation code for the experimental section. The theoretical folder contains pipelines to process and analyze proteome data from mycoplasma (Species ID: 243273) and human (Species ID: 9606), as well as any other proteome of interest. It includes code for data processing, proteomic data, and scripts for simulating the sequencing process. To get started on the theoretical code, begin with the Jupyter notebooks provided in the theoretical directory.
 
-Hard-coded variables and filenames remain. This repository is still a work in progress. Please contact Camille Mitchell at camitch@mit.edu with any questions.
+This repository is still a work in progress. Please contact Camille Mitchell at camitch@mit.edu with any questions.
 
 ## Table of Contents
 
@@ -10,7 +10,6 @@ Hard-coded variables and filenames remain. This repository is still a work in pr
 - [Installation](#installation)
 - [Getting Started](#getting-started)
 - [License](#license)
-- [Acknowledgements](#acknowledgements)
 
 ## Project Overview
 
@@ -22,8 +21,17 @@ This repository contains:
 
 ### Theoretical
 
+## 1. System requirements
+Run on Python 3.13, and the following Python packages were used:
+- numpy (2.4.2)
+- requests (2.32.4)
+- tqdm (4.67.1)
+- matplotlib (3.10.8)
+- pandas (v3.0.1)
+- numba (0.64.0)
+
 This repository contains:
-- **plots** – where plots and corresponding tables for Extended Figure 7 and Supplementary Figures are located.
+- **plots** – where plots and corresponding tables for Supplementary Figures 13 to 19 are located.
 - **preprocessing** – stores proteomes from UniProt.
 - **sample** – where scripts and data for Part 1 resides.
 - **samplereference** – where the reference fragment dataset from Part 2 resides.
@@ -32,21 +40,28 @@ This repository contains:
 - **Part1.ipynb** - a Jupyter Notebook that runs all plots (Figure 7C and Supplementary Materials) for Part 1.
 - **Part2.ipynb** - a Jupyter Notebook that runs all plots (Figure 7D and Supplementary Materials) for Part 2.
 
-## Installation
+## 2. Installation Guide
 
 1. **Clone the repository:**
 
    ```bash
    git clone https://github.com/camimarie/insituprotein.git
+   cd insituprotein
 
-2.  **Install dependencies:**
+2. **Create and activate a conda environment:**
+
+   ```bash
+   conda create -n insituprotein python=3.13
+   conda activate insituprotein
+
+3.  **Install dependencies:**
 
     Make sure you have Python installed and a new conda environment open, then run:
 
     ```bash
     pip install -r requirements.txt
 
-## Getting Started
+## 4. Demo: Getting Started
 
 After installation, for the experimental section, we recommend opening the ```Experimental/code_for_plots_principles_insitu_protein.ipynb``` notebook to view how the plots for the experimental section were generated.
 
