@@ -7,9 +7,9 @@ This repository is still a work in progress. Please contact Camille Mitchell at 
 ## Table of Contents
 
 - [Project Overview](#project-overview)
-- [System Requirements](#1-system-requirements)
-- [Installation Guide](#2-installation-guide)
-- [Demo: Getting Started](#3-demo-getting-started)
+- [1. System Requirements](#1-system-requirements)
+- [2. Installation Guide](#2-installation-guide)
+- [3. Demo: Getting Started](#3-demo-getting-started)
 - [License](#license)
 
 ## Project Overview
