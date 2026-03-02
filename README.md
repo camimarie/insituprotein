@@ -7,8 +7,9 @@ This repository is still a work in progress. Please contact Camille Mitchell at 
 ## Table of Contents
 
 - [Project Overview](#project-overview)
-- [Installation](#installation)
-- [Getting Started](#getting-started)
+- [System Requirements](#system-requirements)
+- [Installation Guide](#installation-guide)
+- [Demo: Getting Started](#demo-getting-started)
 - [License](#license)
 
 ## Project Overview
@@ -65,7 +66,7 @@ This repository contains:
 
 After installation, for the experimental section, we recommend opening the ```Experimental/code_for_plots_principles_insitu_protein.ipynb``` notebook to view how the plots for the experimental section were generated.
 
-For the theoretical section, we recommend starting with the ```Theoretical/Introduction.ipynb``` notebook. This notebook provides an introduction to the preprocessing steps, giving you a quick overview of how the in-situ protein sequencing process works. You can add your own parameters, species (other than human and mycoplasma), and run the simulations yourself. We also recommend then running the ```Theoretical/Part1.ipynb``` notebook followed by the ```Theoretical/Part2.ipynb``` notebook. Note that some of the data generation takes a significant amount of time - doing this on a cluster, or decreasing the number of iterations should help.
+For the theoretical section, we recommend starting with the ```Theoretical/Introduction.ipynb``` notebook. This notebook provides an introduction to the preprocessing steps, giving you a quick overview of how the in situ protein sequencing process works. You can add your own parameters, species (other than human and mycoplasma), and run the simulations yourself. Then, we also recommend then running the ```Theoretical/Part1.ipynb``` notebook followed by the ```Theoretical/Part2.ipynb``` notebook. Note that some of the data generation takes a significant amount of time - doing this on a cluster, or decreasing the number of iterations should help.
 
 ## License
 
