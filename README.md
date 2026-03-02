@@ -54,4 +54,4 @@ For the theoretical section, we recommend starting with the ```Theoretical/Intro
 
 ## License
 
-This project is licensed under the MIT License. See the LICENSE file for details.
+This project is licensed under the MIT License: https://opensource.org/license/mit. See the LICENSE file for details. 
