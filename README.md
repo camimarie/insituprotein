@@ -76,6 +76,8 @@ You can add your own parameters, species (other than human and mycoplasma), and 
 
 We then recommend running ```Theoretical/Part2.ipynb``` notebook. Note that some of the data generation takes a significant amount of time - doing this on a cluster, or decreasing the number of iterations should help. However, the data used in the paper is stored in test/outputs/summary.csv, which should be sufficient to graph Figure 7D.
 
+If you rewrite over existing data, the folder Theoretical/paper should contain all the data used in the paper.
+
 ## License
 
 This project is licensed under the MIT License: https://opensource.org/license/mit. See the LICENSE file for details. 
