@@ -10,7 +10,7 @@ from typing import Dict, List, Tuple
 import numpy as np
 from concurrent.futures import ProcessPoolExecutor
 import sys
-sys.setrecursionlimit(10_000) # required for deep tries
+sys.setrecursionlimit(100_000) # required for deep tries
 
 from sample.SampleQueue import SequenceProcessor
 from sample.GridSamplingHelpers import (
