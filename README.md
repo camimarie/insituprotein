@@ -2,7 +2,7 @@
 
 This repository contains the code accompanying the *in situ* protein sequencing manuscript. Currently, it is divided into two sections: experimental and theoretical. The experimental folder contains the image processing and figure generation code for the experimental section. The theoretical folder contains pipelines to process and analyze proteome data from mycoplasma (Species ID: 243273) and human (Species ID: 9606), as well as any other proteome of interest. It includes code for data processing, proteomic data, and scripts for simulating the sequencing process. To get started on the theoretical code, begin with the Jupyter notebooks provided in the theoretical directory.
 
-This repository is still a work in progress. Please contact Camille Mitchell at camitch@mit.edu with any questions.
+Please contact Camille Mitchell-Wang at camitch@mit.edu with any questions.
 
 ## Table of Contents
 
